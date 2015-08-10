@@ -1,0 +1,84 @@
+ 0.0           ! xmin      : left domain extent
+ 3600.e3       ! xmax      : right domain extent
+ 0.0           ! ymin      : lower domain extent 
+ 2800.e3       ! ymax      : upper domain extent
+  0.02025      ! gravity   : Gravity
+  1000.0          ! depth     : Constant depth case
+  0.0          ! bdrag     : Bottom Drag Coeffcient
+  0.0          ! viscosity : viscosity coefficient
+9.e-5          ! fc        : Coriolis parameter at mid-basin
+0.0	       ! beta      :  beta-plane parameter at mid-basin
+80.0	       ! dt        : time step
+3000000        ! ntimestep : number of time steps
+1580	       ! isnap
+===Vortex Merger=========================
+ 0.0           ! xmin      : left domain extent
+ 3600.e3       ! xmax      : right domain extent
+ 0.0           ! ymin      : lower domain extent 
+ 2800.e3       ! ymax      : upper domain extent
+  0.081        ! gravity   : Gravity
+  1000.0       ! depth     : Constant depth case
+  0.0          ! bdrag     : Bottom Drag Coeffcient
+  0.0          ! viscosity : viscosity coefficient
+9.e-5          ! fc        : Coriolis parameter at mid-basin
+1.8e-11	       ! beta      :  beta-plane parameter at mid-basin
+40.0	       ! dt        : time step
+3000000        ! ntimestep : number of time steps
+2160	       ! isnap
+===Monopole Vortex=========================
+-24.0          ! xmin      : left domain extent
+ 24.0	       ! xmax      : right domain extent
+ -8.0	       ! ymin      : lower domain extent
+  8.0	       ! ymax      : upper domain extent
+  1.0          ! gravity   : Gravity
+  1.0          ! depth     : Constant depth case
+  0.0          ! bdrag     : Bottom Drag Coeffcient
+  0.0          ! viscosity : viscosity coefficient
+0.0	       ! fc        : Coriolis parameter at mid-basin
+1.0	       ! beta      :  beta-plane parameter at mid-basin
+0.005	       ! dt        : time step
+10000	       ! ntimestep : number of time steps
+10	       ! isnap
+===Rossby Soliton=========================
+0.0	       ! xmin      : left domain extent
+1.0	       ! xmax      : right domain extent
+0.0	       ! ymin      : lower domain extent
+1.0	       ! ymax      : upper domain extent
+  1.0          ! gravity   : gravity coefficient
+  1.0          ! depth     : depth
+  0.0          ! bdrag     : bottom drag coefficient
+  0.0          ! viscosity : viscosity coefficient
+0.0	       ! fc        : Coriolis parameter at mid-basin
+0.0	       ! beta      :  beta-plane parameter at mid-basin
+0.0015625      ! dt
+1280	       ! ntimestep : number of time steps
+80	       ! isnap
+===Standing wave=========================
+  0.0	       ! xmin      : left domain extent
+10000.e3       ! xmax      : right domain extent
+  0.0	       ! ymin      : lower domain extent
+ 6300.e3       ! ymax      : upper domain extent
+  0.0          ! gravity   : Gravity
+200.0          ! depth     : Constant depth case
+  0.0          ! bdrag     : Bottom Drag Coeffcient
+ 00.0          ! viscosity : viscosity coefficient
+0.0    	       ! fc        : Coriolis parameter at mid-basin
+2.11e-11       ! beta      :  beta-plane parameter at mid-basin
+10000	       ! dt        : time step
+25600	       ! ntimestep : number of time steps
+200	       ! isnap
+===Stommel Gyre Advection=========================
+  0.0	       ! xmin      : left domain extent
+2040.e3        ! xmax      : right domain extent
+  0.0	       ! ymin      : lower domain extent
+2040.e3	       ! ymax      : upper domain extent
+  0.015        ! gravity   : Gravity
+600.0          ! depth     : Constant depth case
+  0.0          ! bdrag     : Bottom Drag Coeffcient
+100.0          ! viscosity : viscosity coefficient
+8.37e-5	       ! fc        : Coriolis parameter at mid-basin
+1.87e-11       ! beta      :  beta-plane parameter at mid-basin
+0.002	       ! dt        : time step
+20000	       ! ntimestep : number of time steps
+720	       ! isnap
+===Munk Double Gyre Problem=========================
